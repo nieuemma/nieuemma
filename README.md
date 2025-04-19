@@ -1,0 +1,11 @@
+- Hi, I’m @nieuemma
+- I’m interested in writing code to make things easier.
+- I’m currently learning Bash and Lua.
+- I’m looking to learn the basics first.
+- Reach out to me on Discord @nieuemma
+- Pronouns: she/they
+
+<!---
+nieuemma/nieuemma is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
