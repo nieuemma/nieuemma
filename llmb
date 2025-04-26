@@ -7,7 +7,7 @@ if [ $# -gt 0 ]; then
           echo "Usage: $0 -b <model>"
           exit 1
       else
-      echo "Tell me a story" | ollama run $1 --verbose 2>&1 >/dev/null | grep -E "eval rate:|prompt eval rate:" 
+      ollama run $1 "Tell me a story" --verbose 2>&1 >/dev/null | grep -E "eval rate:|prompt eval rate:" 
       fi
       ;;
     -l|--list)
