@@ -1,0 +1,26 @@
+#!/bin/sh
+if [ $# -gt 0 ]; then
+  case "$1" in
+    -b|--bench)
+      shift
+      if [ "$#" -eq 0 ]; then
+          echo "Usage: $0 -b <model>"
+          exit 1
+      else
+      echo "Tell me a story" | ollama run $1 --verbose 2>&1 >/dev/null | grep -E "eval rate:|prompt eval rate:" 
+      fi
+      ;;
+    -l|--list)
+      ollama list
+      ;;
+    -h|--help)
+      echo "-b, --bench  run a benchmark"
+      echo "-l, --list   list ollama models"
+      ;;
+    *)
+      echo "Try -h for help"
+  esac
+else
+  echo "Try -h for help"
+fi
+exit 0
