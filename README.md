@@ -1,7 +1,6 @@
 - Hi, I’m @nieuemma
-- I’m interested in writing code to make things easier.
-- I’m currently learning Bash and Lua.
-- I’m looking to learn the basics first.
+- I’m interested in writing code to make things easier
+- I’m currently learning Bash and Rust
 - Reach out to me on Discord @nieuemma
 - Pronouns: she/they
 
