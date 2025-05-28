@@ -1,8 +1,8 @@
-- Hi, I’m @nieuemma
-- I’m interested in writing code to make things easier
+- Hi, I’m nieuemma!
 - I’m currently learning nushell
 - I hope to learn Python and Rust
-- Reach out to me on Discord @nieuemma
+- Discord: @nieuemma
+- Matrix: #nieuemma:matrix.org
 - Pronouns: she/they
 
 <!---
