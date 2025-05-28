@@ -1,6 +1,6 @@
 - Hi, I’m @nieuemma
 - I’m interested in writing code to make things easier
-- I’m currently learning Bash
+- I’m currently learning nushell
 - I hope to learn Python and Rust
 - Reach out to me on Discord @nieuemma
 - Pronouns: she/they
