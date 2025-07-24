@@ -1,4 +1,3 @@
-
 Script is  $0
 Script directory is $(dirname “$0”)
 $1, $2, $3 are arguments passed to the script
@@ -47,3 +46,42 @@ A chevron > is used to write the output of a command to a file. Two chevrons >> 
 -gt checks if a number is greater than another
 -ge checks if a number is greater than or equal to another
 
+# Example Loops
+numbers='7 15 32'
+for number in $numbers
+do
+  echo $number
+done
+
+counter=1
+while [ $counter -lt 10 ]
+do
+  echo $counter
+  ((counter++))
+done
+
+until [ $counter -gt 10 ]
+do
+  echo $counter
+  ((counter++))
+done
+
+# Example case statement
+
+read country
+echo -n "The official language of $country is "
+
+case $country in
+
+  Lithuania)
+    echo -n "Lithuanian"
+    ;;
+
+  Romania | Moldova)
+    echo -n "Romanian"
+    ;;
+
+  *)
+    echo -n "unknown"
+    ;;
+esac
